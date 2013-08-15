@@ -1,0 +1,2078 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="js">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="mfbt">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="js\jsd">
+      <UniqueIdentifier>{5f254548-0481-4993-beb0-e3bc673eff16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="js\public">
+      <UniqueIdentifier>{e3c06db0-6f75-46f1-897b-3a75376269b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="js\src">
+      <UniqueIdentifier>{529fca06-7c57-4138-affb-a8f3edca403d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="js\jsd\idl">
+      <UniqueIdentifier>{2fce23fd-f061-4cea-abc4-6c5b15324046}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="js\jsd\test">
+      <UniqueIdentifier>{11502b64-d873-429e-a434-d587a39fd637}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="INSTALL" />
+    <None Include="LICENSE" />
+    <None Include="README" />
+    <None Include="js\jsd\idl\Makefile.in">
+      <Filter>js\jsd\idl</Filter>
+    </None>
+    <None Include="js\jsd\test\test_bug617870-callhooks.html">
+      <Filter>js\jsd\test</Filter>
+    </None>
+    <None Include="js\jsd\test\test_bug638178-execlines.html">
+      <Filter>js\jsd\test</Filter>
+    </None>
+    <None Include="js\jsd\test\test_evalCached.js">
+      <Filter>js\jsd\test</Filter>
+    </None>
+    <None Include="js\jsd\test\test_jsval_retval.js">
+      <Filter>js\jsd\test</Filter>
+    </None>
+    <None Include="js\jsd\test\test-bug617870-callhooks.js">
+      <Filter>js\jsd\test</Filter>
+    </None>
+    <None Include="js\jsd\test\test-bug638178-execlines.js">
+      <Filter>js\jsd\test</Filter>
+    </None>
+    <None Include="js\jsd\test\xpcshell.ini">
+      <Filter>js\jsd\test</Filter>
+    </None>
+    <None Include="js\jsd\test\bug507448.js">
+      <Filter>js\jsd\test</Filter>
+    </None>
+    <None Include="js\jsd\test\jsd-test.js">
+      <Filter>js\jsd\test</Filter>
+    </None>
+    <None Include="js\jsd\test\Makefile.in">
+      <Filter>js\jsd\test</Filter>
+    </None>
+    <None Include="js\jsd\test\test_bug507448.html">
+      <Filter>js\jsd\test</Filter>
+    </None>
+    <None Include="js\jsd\Makefile.in">
+      <Filter>js\jsd</Filter>
+    </None>
+    <None Include="js\jsd\mkshell.bat">
+      <Filter>js\jsd</Filter>
+    </None>
+    <None Include="js\jsd\README">
+      <Filter>js\jsd</Filter>
+    </None>
+    <None Include="js\jsd\jsd1640.def">
+      <Filter>js\jsd</Filter>
+    </None>
+    <None Include="js\src\README.html">
+      <Filter>js\src</Filter>
+    </None>
+    <None Include="js\src\symverscript.in">
+      <Filter>js\src</Filter>
+    </None>
+    <None Include="js\src\Y.js">
+      <Filter>js\src</Filter>
+    </None>
+    <None Include="js\src\methodjit\TrampolineMasmX64.asm">
+      <Filter>js\src</Filter>
+    </None>
+    <None Include="js\src\tests\jsreftest.html">
+      <Filter>js\src</Filter>
+    </None>
+    <None Include="js\src\aclocal.m4">
+      <Filter>js\src</Filter>
+    </None>
+    <None Include="js\src\configure">
+      <Filter>js\src</Filter>
+    </None>
+    <None Include="js\src\configure.in">
+      <Filter>js\src</Filter>
+    </None>
+    <None Include="js\src\ETWProvider.man">
+      <Filter>js\src</Filter>
+    </None>
+    <None Include="js\src\javascript-trace.d">
+      <Filter>js\src</Filter>
+    </None>
+    <None Include="js\src\js.msg">
+      <Filter>js\src</Filter>
+    </None>
+    <None Include="js\src\js.pc.in">
+      <Filter>js\src</Filter>
+    </None>
+    <None Include="js\src\jsast.tbl">
+      <Filter>js\src</Filter>
+    </None>
+    <None Include="js\src\jsatom.tbl">
+      <Filter>js\src</Filter>
+    </None>
+    <None Include="js\src\js-confdefs.h.in">
+      <Filter>js\src</Filter>
+    </None>
+    <None Include="js\src\js-config.h.in">
+      <Filter>js\src</Filter>
+    </None>
+    <None Include="js\src\js-config.in">
+      <Filter>js\src</Filter>
+    </None>
+    <None Include="js\src\jskeyword.tbl">
+      <Filter>js\src</Filter>
+    </None>
+    <None Include="js\src\jsopcode.tbl">
+      <Filter>js\src</Filter>
+    </None>
+    <None Include="js\src\jsproto.tbl">
+      <Filter>js\src</Filter>
+    </None>
+    <None Include="js\src\jsshell.msg">
+      <Filter>js\src</Filter>
+    </None>
+    <None Include="js\src\jswin64.asm">
+      <Filter>js\src</Filter>
+    </None>
+    <None Include="js\src\Makefile.in">
+      <Filter>js\src</Filter>
+    </None>
+    <None Include="mfbt\exported_headers.mk">
+      <Filter>mfbt</Filter>
+    </None>
+    <None Include="mfbt\Makefile.in">
+      <Filter>mfbt</Filter>
+    </None>
+    <None Include="mfbt\sources.mk">
+      <Filter>mfbt</Filter>
+    </None>
+    <None Include="mfbt\STYLE">
+      <Filter>mfbt</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Midl Include="js\jsd\idl\jsdIDebuggerService.idl">
+      <Filter>js\jsd\idl</Filter>
+    </Midl>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="js\jsd\jsd3240.rc">
+      <Filter>js\jsd</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="js\jsd\jsd1640.rc">
+      <Filter>js\jsd</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="js\jsd\jsd.h">
+      <Filter>js\jsd</Filter>
+    </ClInclude>
+    <ClInclude Include="js\jsd\jsd_lock.h">
+      <Filter>js\jsd</Filter>
+    </ClInclude>
+    <ClInclude Include="js\jsd\jsd_xpc.h">
+      <Filter>js\jsd</Filter>
+    </ClInclude>
+    <ClInclude Include="js\jsd\jsdebug.h">
+      <Filter>js\jsd</Filter>
+    </ClInclude>
+    <ClInclude Include="js\jsd\jshash.h">
+      <Filter>js\jsd</Filter>
+    </ClInclude>
+    <ClInclude Include="js\jsd\resource.h">
+      <Filter>js\jsd</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\sharkctl.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\assembler\assembler\AbstractMacroAssembler.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\assembler\assembler\ARMAssembler.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\assembler\assembler\ARMv7Assembler.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\assembler\assembler\AssemblerBuffer.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\assembler\assembler\AssemblerBufferWithConstantPool.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\assembler\assembler\CodeLocation.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\assembler\assembler\LinkBuffer.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\assembler\assembler\MacroAssembler.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\assembler\assembler\MacroAssemblerARM.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\assembler\assembler\MacroAssemblerARMv7.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\assembler\assembler\MacroAssemblerCodeRef.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\assembler\assembler\MacroAssemblerMIPS.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\assembler\assembler\MacroAssemblerSparc.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\assembler\assembler\MacroAssemblerX86.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\assembler\assembler\MacroAssemblerX86Common.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\assembler\assembler\MacroAssemblerX86_64.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\assembler\assembler\MIPSAssembler.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\assembler\assembler\RepatchBuffer.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\assembler\assembler\SparcAssembler.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\assembler\assembler\X86Assembler.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\assembler\jit\ExecutableAllocator.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\assembler\moco\MocoStubs.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\assembler\wtf\Assertions.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\assembler\wtf\Platform.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\assembler\wtf\SegmentedVector.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\assembler\wtf\VMTags.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\builtin\Eval.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\builtin\Iterator-inl.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\builtin\MapObject.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\builtin\ParallelArray-inl.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\builtin\ParallelArray.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\builtin\RegExp.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\builtin\TestingFunctions.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\config\gcc_hidden.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\config\mkdepend\def.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\config\mkdepend\ifparser.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\config\mkdepend\imakemdep.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\config\pathsub.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\ctypes\CTypes.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\ctypes\libffi\include\ffi_common.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\ctypes\libffi\src\alpha\ffitarget.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\ctypes\libffi\src\arm\ffitarget.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\ctypes\libffi\src\avr32\ffitarget.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\ctypes\libffi\src\cris\ffitarget.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\ctypes\libffi\src\frv\ffitarget.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\ctypes\libffi\src\ia64\ffitarget.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\ctypes\libffi\src\ia64\ia64_flags.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\ctypes\libffi\src\m32r\ffitarget.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\ctypes\libffi\src\m68k\ffitarget.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\ctypes\libffi\src\mips\ffitarget.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\ctypes\libffi\src\moxie\ffitarget.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\ctypes\libffi\src\pa\ffitarget.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\ctypes\libffi\src\powerpc\asm.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\ctypes\libffi\src\powerpc\ffitarget.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\ctypes\libffi\src\s390\ffitarget.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\ctypes\libffi\src\sh\ffitarget.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\ctypes\libffi\src\sh64\ffitarget.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\ctypes\libffi\src\sparc\ffitarget.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\ctypes\libffi\src\x86\ffitarget.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\ctypes\libffi\testsuite\libffi.call\ffitest.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\ctypes\libffi\testsuite\libffi.special\ffitestcxx.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\ctypes\Library.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\ctypes\typedefs.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\ds\BitArray.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\ds\InlineMap.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\ds\LifoAlloc.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\ds\Sort.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\editline\editline.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\editline\unix.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\frontend\BytecodeCompiler.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\frontend\BytecodeEmitter.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\frontend\FoldConstants.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\frontend\NameFunctions.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\frontend\ParseMaps-inl.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\frontend\ParseMaps.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\frontend\ParseNode-inl.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\frontend\ParseNode.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\frontend\Parser-inl.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\frontend\Parser.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\frontend\SharedContext-inl.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\frontend\SharedContext.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\frontend\TokenStream.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\gc\Barrier-inl.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\gc\Barrier.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\gc\Heap.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\gc\Marking.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\gc\Memory.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\gc\Root.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\gc\Statistics.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\gc\StoreBuffer.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\jsapi-tests\tests.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\methodjit\BaseAssembler.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\methodjit\BaseCompiler.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\methodjit\CodeGenIncludes.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\methodjit\Compiler.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\methodjit\FrameEntry.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\methodjit\FrameState-inl.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\methodjit\FrameState.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\methodjit\ICChecker.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\methodjit\ICLabels.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\methodjit\ICRepatcher.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\methodjit\ImmutableSync.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\methodjit\InlineFrameAssembler.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\methodjit\Logging.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\methodjit\LoopState.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\methodjit\MachineRegs.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\methodjit\MethodJIT.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\methodjit\MonoIC.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\methodjit\NunboxAssembler.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\methodjit\PolyIC.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\methodjit\PunboxAssembler.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\methodjit\RematInfo.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\methodjit\Retcon.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\methodjit\StubCalls-inl.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\methodjit\StubCalls.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\methodjit\StubCompiler.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\methodjit\TrampolineCompiler.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\methodjit\TypedArrayIC.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\perf\jsperf.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\shell\jsheaptools.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\shell\jsoptparse.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\vm\ArgumentsObject-inl.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\vm\ArgumentsObject.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\vm\BooleanObject-inl.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\vm\BooleanObject.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\vm\Debugger.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\vm\GlobalObject-inl.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\vm\GlobalObject.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\vm\MatchPairs.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\vm\NumberObject-inl.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\vm\NumberObject.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\vm\NumericConversions.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\vm\ObjectImpl-inl.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\vm\ObjectImpl.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\vm\RegExpObject-inl.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\vm\RegExpObject.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\vm\RegExpStatics-inl.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\vm\RegExpStatics.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\vm\ScopeObject-inl.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\vm\ScopeObject.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\vm\SPSProfiler.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\vm\Stack-inl.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\vm\Stack.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\vm\String-inl.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\vm\String.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\vm\StringBuffer.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\vm\StringObject-inl.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\vm\StringObject.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\vm\Unicode.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\vm\Xdr.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\vprof\vprof.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\yarr\ASCIICType.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\yarr\BumpPointerAllocator.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\yarr\OSAllocator.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\yarr\PageAllocation.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\yarr\PageBlock.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\yarr\RegExpJitTables.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\yarr\VMTags.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\yarr\wtfbridge.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\yarr\Yarr.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\yarr\YarrInterpreter.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\yarr\YarrJIT.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\yarr\YarrParser.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\yarr\YarrPattern.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\yarr\YarrSyntaxChecker.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\jsalloc.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\jsanalyze.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\jsapi.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\jsarray.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\jsarrayinlines.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\jsatom.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\jsatominlines.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\jsbool.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\jsboolinlines.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\jsclass.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\jsclist.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\jsclone.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\jscntxt.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\jscntxtinlines.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\jscompartment.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\jscpucfg.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\jscrashformat.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\jscrashreport.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\jsdate.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\jsdbgapi.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\jsdhash.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\jsdtoa.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\jsexn.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\jsfriendapi.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\jsfun.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\jsfuninlines.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\jsgc.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\jsgcinlines.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\jsinfer.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\jsinferinlines.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\jsinterp.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\jsinterpinlines.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\jsiter.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\jslibmath.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\jslock.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\jsmath.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\jsnativestack.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\jsnum.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\jsnuminlines.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\jsobj.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\jsobjinlines.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\json.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\jsonparser.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\jsopcode.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\jsopcodeinlines.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\jsprf.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\jsprobes.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\jspropertycache.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\jspropertycacheinlines.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\jspropertytree.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\jsproxy.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\jsprvtd.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\jspubtd.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\jsreflect.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\jsscope.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\jsscopeinlines.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\jsscript.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\jsscriptinlines.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\jsstr.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\jsstrinlines.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\jstypedarray.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\jstypedarrayinlines.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\jstypes.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\jsutil.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\jsval.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\jsversion.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\jswatchpoint.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\jsweakmap.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\jswin.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\jswrapper.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\jsxml.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\src\prmjtime.h">
+      <Filter>js\src</Filter>
+    </ClInclude>
+    <ClInclude Include="js\public\HashTable.h">
+      <Filter>js\public</Filter>
+    </ClInclude>
+    <ClInclude Include="js\public\LegacyIntTypes.h">
+      <Filter>js\public</Filter>
+    </ClInclude>
+    <ClInclude Include="js\public\MemoryMetrics.h">
+      <Filter>js\public</Filter>
+    </ClInclude>
+    <ClInclude Include="js\public\RequiredDefines.h">
+      <Filter>js\public</Filter>
+    </ClInclude>
+    <ClInclude Include="js\public\TemplateLib.h">
+      <Filter>js\public</Filter>
+    </ClInclude>
+    <ClInclude Include="js\public\Utility.h">
+      <Filter>js\public</Filter>
+    </ClInclude>
+    <ClInclude Include="js\public\Vector.h">
+      <Filter>js\public</Filter>
+    </ClInclude>
+    <ClInclude Include="mfbt\BloomFilter.h">
+      <Filter>mfbt</Filter>
+    </ClInclude>
+    <ClInclude Include="mfbt\CheckedInt.h">
+      <Filter>mfbt</Filter>
+    </ClInclude>
+    <ClInclude Include="mfbt\Constants.h">
+      <Filter>mfbt</Filter>
+    </ClInclude>
+    <ClInclude Include="mfbt\FloatingPoint.h">
+      <Filter>mfbt</Filter>
+    </ClInclude>
+    <ClInclude Include="mfbt\GuardObjects.h">
+      <Filter>mfbt</Filter>
+    </ClInclude>
+    <ClInclude Include="mfbt\HashFunctions.h">
+      <Filter>mfbt</Filter>
+    </ClInclude>
+    <ClInclude Include="mfbt\Likely.h">
+      <Filter>mfbt</Filter>
+    </ClInclude>
+    <ClInclude Include="mfbt\LinkedList.h">
+      <Filter>mfbt</Filter>
+    </ClInclude>
+    <ClInclude Include="mfbt\MathAlgorithms.h">
+      <Filter>mfbt</Filter>
+    </ClInclude>
+    <ClInclude Include="mfbt\MSStdInt.h">
+      <Filter>mfbt</Filter>
+    </ClInclude>
+    <ClInclude Include="mfbt\NullPtr.h">
+      <Filter>mfbt</Filter>
+    </ClInclude>
+    <ClInclude Include="mfbt\RangedPtr.h">
+      <Filter>mfbt</Filter>
+    </ClInclude>
+    <ClInclude Include="mfbt\RefPtr.h">
+      <Filter>mfbt</Filter>
+    </ClInclude>
+    <ClInclude Include="mfbt\Scoped.h">
+      <Filter>mfbt</Filter>
+    </ClInclude>
+    <ClInclude Include="mfbt\SHA1.h">
+      <Filter>mfbt</Filter>
+    </ClInclude>
+    <ClInclude Include="mfbt\StandardInteger.h">
+      <Filter>mfbt</Filter>
+    </ClInclude>
+    <ClInclude Include="mfbt\ThreadLocal.h">
+      <Filter>mfbt</Filter>
+    </ClInclude>
+    <ClInclude Include="mfbt\Types.h">
+      <Filter>mfbt</Filter>
+    </ClInclude>
+    <ClInclude Include="mfbt\TypeTraits.h">
+      <Filter>mfbt</Filter>
+    </ClInclude>
+    <ClInclude Include="mfbt\Util.h">
+      <Filter>mfbt</Filter>
+    </ClInclude>
+    <ClInclude Include="mfbt\WeakPtr.h">
+      <Filter>mfbt</Filter>
+    </ClInclude>
+    <ClInclude Include="mfbt\Assertions.h">
+      <Filter>mfbt</Filter>
+    </ClInclude>
+    <ClInclude Include="mfbt\Attributes.h">
+      <Filter>mfbt</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="js\jsd\jsd_atom.c">
+      <Filter>js\jsd</Filter>
+    </ClCompile>
+    <ClCompile Include="js\jsd\jsd_high.c">
+      <Filter>js\jsd</Filter>
+    </ClCompile>
+    <ClCompile Include="js\jsd\jsd_hook.c">
+      <Filter>js\jsd</Filter>
+    </ClCompile>
+    <ClCompile Include="js\jsd\jsd_java.c">
+      <Filter>js\jsd</Filter>
+    </ClCompile>
+    <ClCompile Include="js\jsd\jsd_lock.c">
+      <Filter>js\jsd</Filter>
+    </ClCompile>
+    <ClCompile Include="js\jsd\jsd_obj.c">
+      <Filter>js\jsd</Filter>
+    </ClCompile>
+    <ClCompile Include="js\jsd\jsd_scpt.c">
+      <Filter>js\jsd</Filter>
+    </ClCompile>
+    <ClCompile Include="js\jsd\jsd_stak.c">
+      <Filter>js\jsd</Filter>
+    </ClCompile>
+    <ClCompile Include="js\jsd\jsd_step.c">
+      <Filter>js\jsd</Filter>
+    </ClCompile>
+    <ClCompile Include="js\jsd\jsd_text.c">
+      <Filter>js\jsd</Filter>
+    </ClCompile>
+    <ClCompile Include="js\jsd\jsd_val.c">
+      <Filter>js\jsd</Filter>
+    </ClCompile>
+    <ClCompile Include="js\jsd\jsd_xpc.cpp">
+      <Filter>js\jsd</Filter>
+    </ClCompile>
+    <ClCompile Include="js\jsd\jsdebug.c">
+      <Filter>js\jsd</Filter>
+    </ClCompile>
+    <ClCompile Include="js\jsd\jsdstubs.c">
+      <Filter>js\jsd</Filter>
+    </ClCompile>
+    <ClCompile Include="js\jsd\jshash.cpp">
+      <Filter>js\jsd</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\sharkctl.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\assembler\assembler\ARMAssembler.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\assembler\assembler\MacroAssemblerARM.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\assembler\assembler\MacroAssemblerX86Common.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\assembler\jit\ExecutableAllocator.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\assembler\jit\ExecutableAllocatorOS2.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\assembler\jit\ExecutableAllocatorPosix.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\assembler\jit\ExecutableAllocatorSymbian.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\assembler\jit\ExecutableAllocatorWin.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\assembler\TestMain.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\assembler\wtf\Assertions.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\builtin\Eval.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\builtin\MapObject.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\builtin\ParallelArray.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\builtin\RegExp.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\builtin\TestingFunctions.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\config\mkdepend\cppsetup.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\config\mkdepend\ifparser.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\config\mkdepend\include.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\config\mkdepend\main.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\config\mkdepend\parse.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\config\mkdepend\pr.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\config\nsinstall.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\config\pathsub.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\CTypes.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\src\alpha\ffi.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\src\arm\ffi.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\src\avr32\ffi.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\src\closures.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\src\cris\ffi.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\src\debug.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\src\dlmalloc.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\src\frv\ffi.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\src\ia64\ffi.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\src\java_raw_api.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\src\m32r\ffi.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\src\m68k\ffi.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\src\mips\ffi.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\src\moxie\ffi.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\src\pa\ffi.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\src\powerpc\ffi.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\src\powerpc\ffi_darwin.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\src\prep_cif.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\src\raw_api.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\src\s390\ffi.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\src\sh\ffi.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\src\sh64\ffi.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\src\sparc\ffi.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\src\types.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\src\x86\ffi.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\src\x86\ffi64.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\testsuite\libffi.call\closure_fn0.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\testsuite\libffi.call\closure_fn1.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\testsuite\libffi.call\closure_fn2.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\testsuite\libffi.call\closure_fn3.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\testsuite\libffi.call\closure_fn4.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\testsuite\libffi.call\closure_fn5.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\testsuite\libffi.call\closure_fn6.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\testsuite\libffi.call\closure_loc_fn0.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\testsuite\libffi.call\closure_stdcall.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\testsuite\libffi.call\cls_12byte.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\testsuite\libffi.call\cls_16byte.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\testsuite\libffi.call\cls_18byte.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\testsuite\libffi.call\cls_19byte.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\testsuite\libffi.call\cls_1_1byte.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\testsuite\libffi.call\cls_20byte.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\testsuite\libffi.call\cls_20byte1.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\testsuite\libffi.call\cls_24byte.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\testsuite\libffi.call\cls_2byte.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\testsuite\libffi.call\cls_3byte1.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\testsuite\libffi.call\cls_3byte2.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\testsuite\libffi.call\cls_3_1byte.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\testsuite\libffi.call\cls_4byte.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\testsuite\libffi.call\cls_4_1byte.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\testsuite\libffi.call\cls_5byte.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\testsuite\libffi.call\cls_5_1_byte.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\testsuite\libffi.call\cls_64byte.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\testsuite\libffi.call\cls_6byte.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\testsuite\libffi.call\cls_6_1_byte.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\testsuite\libffi.call\cls_7byte.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\testsuite\libffi.call\cls_7_1_byte.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\testsuite\libffi.call\cls_8byte.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\testsuite\libffi.call\cls_9byte1.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\testsuite\libffi.call\cls_9byte2.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\testsuite\libffi.call\cls_align_double.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\testsuite\libffi.call\cls_align_float.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\testsuite\libffi.call\cls_align_longdouble.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\testsuite\libffi.call\cls_align_longdouble_split.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\testsuite\libffi.call\cls_align_longdouble_split2.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\testsuite\libffi.call\cls_align_pointer.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\testsuite\libffi.call\cls_align_sint16.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\testsuite\libffi.call\cls_align_sint32.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\testsuite\libffi.call\cls_align_sint64.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\testsuite\libffi.call\cls_align_uint16.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\testsuite\libffi.call\cls_align_uint32.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\testsuite\libffi.call\cls_align_uint64.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\testsuite\libffi.call\cls_dbls_struct.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\testsuite\libffi.call\cls_double.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\testsuite\libffi.call\cls_double_va.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\testsuite\libffi.call\cls_float.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\testsuite\libffi.call\cls_longdouble.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\testsuite\libffi.call\cls_longdouble_va.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\testsuite\libffi.call\cls_multi_schar.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\testsuite\libffi.call\cls_multi_sshort.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\testsuite\libffi.call\cls_multi_sshortchar.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\testsuite\libffi.call\cls_multi_uchar.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\testsuite\libffi.call\cls_multi_ushort.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\testsuite\libffi.call\cls_multi_ushortchar.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\testsuite\libffi.call\cls_pointer.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\testsuite\libffi.call\cls_pointer_stack.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\testsuite\libffi.call\cls_schar.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\testsuite\libffi.call\cls_sint.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\testsuite\libffi.call\cls_sshort.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\testsuite\libffi.call\cls_uchar.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\testsuite\libffi.call\cls_uint.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\testsuite\libffi.call\cls_ulonglong.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\testsuite\libffi.call\cls_ushort.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\testsuite\libffi.call\err_bad_abi.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\testsuite\libffi.call\err_bad_typedef.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\testsuite\libffi.call\float.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\testsuite\libffi.call\float1.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\testsuite\libffi.call\float2.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\testsuite\libffi.call\float3.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\testsuite\libffi.call\float4.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\testsuite\libffi.call\huge_struct.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\testsuite\libffi.call\many.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\testsuite\libffi.call\many_win32.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\testsuite\libffi.call\negint.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\testsuite\libffi.call\nested_struct.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\testsuite\libffi.call\nested_struct1.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\testsuite\libffi.call\nested_struct10.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\testsuite\libffi.call\nested_struct2.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\testsuite\libffi.call\nested_struct3.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\testsuite\libffi.call\nested_struct4.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\testsuite\libffi.call\nested_struct5.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\testsuite\libffi.call\nested_struct6.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\testsuite\libffi.call\nested_struct7.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\testsuite\libffi.call\nested_struct8.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\testsuite\libffi.call\nested_struct9.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\testsuite\libffi.call\problem1.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\testsuite\libffi.call\promotion.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\testsuite\libffi.call\pyobjc-tc.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\testsuite\libffi.call\return_dbl.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\testsuite\libffi.call\return_dbl1.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\testsuite\libffi.call\return_dbl2.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\testsuite\libffi.call\return_fl.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\testsuite\libffi.call\return_fl1.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\testsuite\libffi.call\return_fl2.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\testsuite\libffi.call\return_fl3.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\testsuite\libffi.call\return_ldl.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\testsuite\libffi.call\return_ll.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\testsuite\libffi.call\return_ll1.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\testsuite\libffi.call\return_sc.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\testsuite\libffi.call\return_sl.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\testsuite\libffi.call\return_uc.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\testsuite\libffi.call\return_ul.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\testsuite\libffi.call\stret_large.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\testsuite\libffi.call\stret_large2.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\testsuite\libffi.call\stret_medium.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\testsuite\libffi.call\stret_medium2.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\testsuite\libffi.call\strlen.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\testsuite\libffi.call\strlen_win32.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\testsuite\libffi.call\struct1.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\testsuite\libffi.call\struct2.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\testsuite\libffi.call\struct3.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\testsuite\libffi.call\struct4.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\testsuite\libffi.call\struct5.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\testsuite\libffi.call\struct6.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\testsuite\libffi.call\struct7.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\testsuite\libffi.call\struct8.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\testsuite\libffi.call\struct9.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\testsuite\libffi.call\testclosure.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\testsuite\libffi.special\unwindtest.cc">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\libffi\testsuite\libffi.special\unwindtest_ffi_call.cc">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ctypes\Library.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\ds\LifoAlloc.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\editline\editline.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\editline\sysunix.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\frontend\BytecodeCompiler.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\frontend\BytecodeEmitter.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\frontend\FoldConstants.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\frontend\NameFunctions.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\frontend\ParseMaps.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\frontend\ParseNode.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\frontend\Parser.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\frontend\TokenStream.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\gc\Marking.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\gc\Memory.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\gc\Statistics.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\gc\StoreBuffer.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\jsapi-tests\selfTest.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\jsapi-tests\testAddPropertyPropcache.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\jsapi-tests\testArgumentsObject.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\jsapi-tests\testBindCallable.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\jsapi-tests\testBug604087.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\jsapi-tests\testCallNonGenericMethodOnProxy.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\jsapi-tests\testChromeBuffer.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\jsapi-tests\testClassGetter.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\jsapi-tests\testCloneScript.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\jsapi-tests\testConservativeGC.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\jsapi-tests\testContexts.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\jsapi-tests\testCustomIterator.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\jsapi-tests\testDebugger.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\jsapi-tests\testDeepFreeze.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\jsapi-tests\testDefineGetterSetterNonEnumerable.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\jsapi-tests\testDefineProperty.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\jsapi-tests\testErrorCopying.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\jsapi-tests\testExtendedEq.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\jsapi-tests\testExternalStrings.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\jsapi-tests\testFuncCallback.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\jsapi-tests\testFunctionProperties.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\jsapi-tests\testGCOutOfMemory.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\jsapi-tests\testGetPropertyDefault.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\jsapi-tests\testHashTable.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\jsapi-tests\testIndexToString.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\jsapi-tests\testIntern.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\jsapi-tests\testIntString.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\jsapi-tests\testIntTypesABI.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\jsapi-tests\testIsAboutToBeFinalized.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\jsapi-tests\testJSEvaluateScript.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\jsapi-tests\testLookup.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\jsapi-tests\testLooselyEqual.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\jsapi-tests\testNewObject.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\jsapi-tests\testOOM.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\jsapi-tests\testOps.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\jsapi-tests\testOriginPrincipals.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\jsapi-tests\testParseJSON.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\jsapi-tests\testProfileStrings.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\jsapi-tests\testPropCache.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\jsapi-tests\testRegExp.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\jsapi-tests\testRegExpInstanceProperties.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\jsapi-tests\testResolveRecursion.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\jsapi-tests\tests.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\jsapi-tests\testSameValue.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\jsapi-tests\testScriptInfo.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\jsapi-tests\testScriptObject.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\jsapi-tests\testSetProperty.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\jsapi-tests\testSlowScript.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\jsapi-tests\testSourcePolicy.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\jsapi-tests\testStringBuffer.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\jsapi-tests\testTrap.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\jsapi-tests\testTypedArrays.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\jsapi-tests\testUTF8.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\jsapi-tests\testValueABI.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\jsapi-tests\testVersion.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\jsapi-tests\testXDR.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\jsapi-tests\valueABI.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\methodjit\Compiler.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\methodjit\FastArithmetic.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\methodjit\FastBuiltins.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\methodjit\FastOps.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\methodjit\FrameState.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\methodjit\ImmutableSync.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\methodjit\InvokeHelpers.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\methodjit\Logging.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\methodjit\LoopState.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\methodjit\MethodJIT.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\methodjit\MonoIC.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\methodjit\PolyIC.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\methodjit\Retcon.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\methodjit\StubCalls.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\methodjit\StubCompiler.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\methodjit\TrampolineCompiler.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\methodjit\TrampolineMIPS.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\perf\jsperf.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\perf\pm_linux.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\perf\pm_stub.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\shell\js.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\shell\jsheaptools.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\shell\jsoptparse.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\vm\ArgumentsObject.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\vm\Debugger.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\vm\GlobalObject.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\vm\ObjectImpl.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\vm\RegExpObject.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\vm\RegExpStatics.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\vm\ScopeObject.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\vm\SPSProfiler.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\vm\Stack.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\vm\String.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\vm\StringBuffer.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\vm\Unicode.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\vm\Xdr.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\vprof\testVprofMT.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\vprof\vprof.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\yarr\OSAllocatorOS2.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\yarr\OSAllocatorPosix.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\yarr\OSAllocatorWin.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\yarr\PageBlock.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\yarr\YarrInterpreter.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\yarr\YarrJIT.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\yarr\YarrPattern.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\yarr\YarrSyntaxChecker.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\dtoa.c">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\jsalloc.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\jsanalyze.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\jsapi.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\jsarray.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\jsatom.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\jsbool.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\jsclone.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\jscntxt.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\jscompartment.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\jscrashreport.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\jsdate.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\jsdbgapi.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\jsdhash.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\jsdtoa.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\jsexn.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\jsfriendapi.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\jsfun.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\jsgc.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\jsinfer.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\jsinterp.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\jsiter.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\jskwgen.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\jslog2.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\jsmath.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\jsnativestack.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\jsnum.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\jsobj.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\json.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\jsonparser.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\jsopcode.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\jsoplengen.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\jsprf.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\jsprobes.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\jspropertycache.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\jspropertytree.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\jsproxy.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\jsreflect.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\jsscope.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\jsscript.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\jsstr.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\jstypedarray.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\jsutil.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\jswatchpoint.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\jsweakmap.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\jswrapper.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\jsxml.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\MemoryMetrics.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="js\src\prmjtime.cpp">
+      <Filter>js\src</Filter>
+    </ClCompile>
+    <ClCompile Include="mfbt\HashFunctions.cpp">
+      <Filter>mfbt</Filter>
+    </ClCompile>
+    <ClCompile Include="mfbt\SHA1.cpp">
+      <Filter>mfbt</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
